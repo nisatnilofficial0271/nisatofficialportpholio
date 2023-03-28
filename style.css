@@ -1,0 +1,89 @@
+/* CSS for the main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#home {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#home button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#home button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+#about img {
+  float: left;
+  margin-right: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS for the work section */
+.work-item {
+  margin-bottom: 2rem;
+}
+
+.work-item img {
+  width: 310px;
+  height: 200px;
+}
+
+/* CSS for the contact form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* CSS for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
