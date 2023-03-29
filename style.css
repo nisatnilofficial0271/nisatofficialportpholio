@@ -211,7 +211,9 @@ footer p {
 
 footer ul {
   list-style: none;
-  padding: 0;
+  paddin
+  
+g: 0;
 }
 
 footer ul li {
@@ -225,4 +227,74 @@ footer ul li a {
 
 footer ul li a:hover {
   color: #222;
+}
+
+.social-icon {
+
+  display: flex;
+
+  justify-content: center;
+
+}
+
+.social-icon ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  margin: 0;
+
+}
+
+.social-icon li {
+
+  margin: 0 10px;
+
+}
+
+.social-icon li a {
+
+  display: block;
+
+}
+
+.social-icon li a .fab {
+
+  font-size: 25px;
+
+  color: #fff;
+
+  transition: all 0.3s ease;
+
+}
+
+.social-icon li a:hover .fab {
+
+  transform: scale(1.2);
+
+}
+
+.social-icon li a.facebook:hover .fab {
+
+  color: #3b5998;
+
+}
+
+.social-icon li a.youtube:hover .fab {
+
+  color: #cd201f;
+
+}
+
+.social-icon li a.instagram:hover .fab {
+
+  color: #e4405f;
+
+}
+
+.social-icon li a.twitter:hover .fab {
+
+  color: #00acee;
+
 }
