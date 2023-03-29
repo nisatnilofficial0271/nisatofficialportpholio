@@ -242,6 +242,7 @@ p, li {
   height: 40px;
   text-align: center;
   margin-right: 10px;
+list-style-type: none;
 }
 
 /* Social link icon */
